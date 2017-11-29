@@ -4,13 +4,79 @@ header {
 
 #xylophone {
   background-color: green;
-  padding: 10%;
+  padding: 30px;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-flex;
 }
 
 #c-low {
+  background-color: blue;
   border: 2px solid white;
   width: 100px;
   height: 500px;
   margin-left: 10px;
-  margin-top: 10px;
+}
+
+#d {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 450px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#e {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+#f {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 350px;
+  margin-left: 10px;
+  margin-top: 75px;
+}
+
+#g {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+#a {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 125px;
+}
+
+#b {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 150px;
+}
+
+#c-high {
+  background-color: blue;
+  border: 2px solid white;
+  width: 100px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 175px;
 }
