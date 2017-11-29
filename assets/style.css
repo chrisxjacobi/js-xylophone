@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 header {
   text-align: center;
 }
@@ -8,6 +20,7 @@ header {
   margin-left: 10%;
   margin-top: 5%;
   display: inline-flex;
+  border-radius: 10%;
 }
 
 #c-low {
