@@ -15,12 +15,31 @@ header {
 }
 
 .key {
-  border-radius: 15px;
+  position: relative;
+  border-radius: 30px;
   margin-left: 2px;
 }
 
-.hole-one {
-    
+.hole-one{
+  position: absolute;
+  top: calc(15px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.hole-two{
+  position: absolute;
+  top: calc(100% - 65px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
 }
 
 #xylophone {
@@ -73,7 +92,7 @@ header {
 }
 
 #a {
-  background-color: rgb(235, 111, 56);
+  background-color: rgb(255, 126, 69);
   border: 2px solid white;
   width: 100px;
   height: 250px;
@@ -81,7 +100,7 @@ header {
 }
 
 #b {
-  background-color: rgb(201,20,38);
+  background-color: rgb(247, 34, 55);
   border: 2px solid white;
   width: 100px;
   height: 200px;
@@ -89,7 +108,7 @@ header {
 }
 
 #c-high {
-  background-color: rgb(225,137,137);
+  background-color: rgb(255, 137, 137);
   border: 2px solid white;
   width: 100px;
   height: 150px;
