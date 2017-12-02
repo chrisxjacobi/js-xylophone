@@ -1,3 +1,3 @@
-document.querySelector('#btn').addEventListener('click', function() {
-  document.getElementById('name').innerHTML = 'HELLO';
+document.querySelector('#a').addEventListener('click', function() {
+  alert('hello');
 });
