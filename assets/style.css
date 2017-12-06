@@ -44,8 +44,8 @@ h1 {
 }
 
 .key:hover {
-    -webkit-animation: pulse 1.5s;
-    animation: pulse 1.5s;
+    -webkit-animation: pulse .5s;
+    animation: pulse .5s;
 }
 
 .hole-one {
