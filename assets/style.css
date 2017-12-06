@@ -1,8 +1,11 @@
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-weight: 300;
+    font-family: Delicious;
 }
 
 .row {
@@ -17,9 +20,10 @@ header {
 h1 {
     color: #3131ea;
     border: 8px solid #e21919;
-    border-radius: 40%;;
-    margin: 5%;
-    padding: 2%;
+    border-radius: 60%;;
+    margin: 10%;
+    padding: 5%;
+    font-family: Delicious;
 }
 
 
@@ -70,7 +74,7 @@ h1 {
     border: 2px solid black;
 }
 
-#c-low {
+#c {
     background-color: rgb(88, 61, 109);
     border: 2px solid white;
     width: 100px;
@@ -125,11 +129,5 @@ h1 {
     margin-top: 150px;
 }
 
-#c-high {
-    background-color: rgb(255, 137, 137);
-    border: 2px solid white;
-    width: 100px;
-    height: 150px;
-    margin-top: 175px;
-}
+
 
