@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 300;
-    font-family: 'Short Stack', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 .row {
@@ -17,10 +17,12 @@ header {
 
 h1 {
     color: #3131ea;
-    border: 10px dotted #e21919;
+    border: 10px solid #e21919;
+    border-radius: 45%;
     margin: 10%;
     padding: 5%;
-    font-family: 'Short Stack', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
 }
 
 
@@ -29,16 +31,18 @@ h1 {
 #xylophone {
     background-color: none;
     border: 5px solid black;
-    padding: 30px;
-    margin-left: 10%;
-    margin-top: 5%;
-    display: inline-flex;
+    border-radius: 20px;
+    display: flex;;
+    width: 100%;
+    margin-bottom: 12%;
 }
 
 .key {
     position: relative;
     border-radius: 30px;
-    margin-left: 2px;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
     box-shadow: 5px 5px 5px grey;
 }
 
