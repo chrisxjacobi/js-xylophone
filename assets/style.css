@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,8 @@ h1 {
     background-color: none;
     border: 5px solid black;
     border-radius: 20px;
-    display: flex;;
+    display: flex;
+    ;
     width: 100%;
     margin-bottom: 12%;
 }
@@ -73,7 +74,7 @@ h1 {
     border: 2px solid black;
 }
 
-#c {
+#c-low {
     background-color: rgb(88, 61, 109);
     border: 2px solid white;
     width: 100px;
@@ -127,3 +128,10 @@ h1 {
     height: 200px;
     margin-top: 150px;
 }
+
+#c-high {
+    background-color: rgb(255, 137, 137);
+    border: 2px solid white;
+    width: 100px;
+    height: 150px;
+    margin-top: 175px;
